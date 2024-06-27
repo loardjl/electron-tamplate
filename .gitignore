@@ -1,0 +1,23 @@
+.DS_Store
+node_modules/
+applog/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+build/
+!build/icons
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.electron-vite/bytecode/_temp/main.js
+.eslintcache
+.history
+/package-lock.json
+/build
