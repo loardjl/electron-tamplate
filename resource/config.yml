@@ -1,0 +1,72 @@
+dc:
+  http:
+    host: 127.0.0.1
+    port: 10010
+    port_decision: 10010
+    url: /datacenter
+    pre_url: /datacenter
+    decision_url: /decision
+  tcp:
+    host: 127.0.0.1
+    port: 9135
+m:
+  tcp:
+    host: 127.0.0.1
+    port: 9237
+vcs:
+  tcp:
+    host: 127.0.0.1
+    port: 8090
+local-node:
+  http:
+    port: 25565
+  websocket:
+    port: 25570
+rules:
+  - '0'
+auth:
+  - business: 6
+    operator: 15
+  - business: 1
+    operator: 15
+  - business: 2
+    operator: 15
+  - business: 7
+    operator: 15
+password: '123'
+showLogo: true
+
+cloud_url: 192.168.0.61:8089
+
+eoms:
+  http:
+    host: 127.0.0.1
+    port: 10010
+
+# 运维相关配置
+monitor:
+  # 是否开启这个功能
+  enable: false
+  mqtt:
+    host: 192.168.0.18:1883
+  dir:
+    # windows错误文件目录
+    #    win_error: D:\\xiaohei\\sql
+    win_error: C:\\Windows\\Minidump
+  #定时任务 单位是定时器的单位
+  interval:
+    # 24 小时 蓝屏
+    #    win_orrer: 1000 * 60 * 60 * 24
+    win_orrer: 3000000
+    # 服务情况上报
+    #    services: 1000 * 60 * 5
+    services: 300000
+    # 所有机床运行状态上报
+    #    all_lathe: 1000 * 60 * 5
+    all_lathe: 300000
+    # 设备状态上报
+    #    device: 1000 * 60 * 5
+    device: 300000
+    # 报警定时轮询时间
+    alarm: 300000
+  env: prod

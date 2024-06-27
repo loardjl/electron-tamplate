@@ -1,0 +1,1 @@
+exports.collectStruct = require('./collect')

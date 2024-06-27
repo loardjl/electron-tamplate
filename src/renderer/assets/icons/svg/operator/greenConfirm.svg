@@ -1,0 +1,15 @@
+<svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip888_7604">
+			<rect id="style=stroke" width="16.000000" height="16.000000" transform="translate(6.000000 6.000000)" fill="white"/>
+		</clipPath>
+	</defs>
+	<rect id="画板 1" rx="3.000000" width="27.000000" height="27.000000" transform="translate(0.500000 0.500000)" fill="#2AE304" fill-opacity="0.1"/>
+	<g clip-path="url(#clip888_7604)">
+		<path id="vector (Stroke)" d="M19.0183 10.8115C19.2136 11.0068 19.2136 11.3232 19.0183 11.5186L13.739 16.7979C13.0229 17.5142 11.8623 17.5142 11.1462 16.7979L8.97803 14.6299C8.78271 14.4346 8.78271 14.1177 8.97803 13.9224C9.17334 13.7275 9.48975 13.7275 9.68506 13.9224L11.8535 16.0908C12.179 16.4165 12.7065 16.4165 13.032 16.0908L18.3113 10.8115C18.5066 10.6162 18.8232 10.6162 19.0183 10.8115Z" fill-rule="evenodd" fill="#2AE304"/>
+	</g>
+	<rect id="画板 1" rx="3.000000" width="27.000000" height="27.000000" transform="translate(0.500000 0.500000)" stroke="#2AE304"/>
+</svg>

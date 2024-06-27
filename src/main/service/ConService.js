@@ -1,0 +1,26 @@
+const BaseSocketClientService = require('./BaseSocketClientService')
+const serverCfg = require('../config/index').serverCfg
+
+const options = {
+  monitorHeart: Buffer.from([
+    0xeb, 0x90, 0x01, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+  ])
+}
+
+const mOptions = {
+  monitorHeart: Buffer.from([
+    0xeb, 0x90, 0x01, 0x00, 0x04, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+  ])
+}
+
+const vOptions = {
+  monitorHeart: Buffer.from([
+    0xeb, 0x90, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+  ])
+}
+
+module.exports = {
+  dcServer: new BaseSocketClientService(serverCfg.DC_TCP, serverCfg.DC_TCP_PORT, options),
+  mServer: new BaseSocketClientService(serverCfg.M_TCP, serverCfg.M_TCP_PORT, mOptions),
+  vcsServer: new BaseSocketClientService(serverCfg.VCS_TCP, serverCfg.VCS_TCP_PORT, vOptions)
+}

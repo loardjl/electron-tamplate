@@ -1,0 +1,37 @@
+<svg width="296.824219" height="200.947266" viewBox="0 0 296.824 200.947" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_413_69712_dd" x="15.932617" y="161.000488" width="255.162109" height="39.946777" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<filter id="filter_413_69713_dd" x="47.824219" y="162.325195" width="191.378418" height="29.297852" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="1.33333" result="effect_layerBlur_1"/>
+		</filter>
+	</defs>
+	<path id="路径 4" d="M235.458 82.7396C235.458 82.7396 274.814 84.548 274.814 110.625C274.814 136.702 236.086 159.569 211.175 165.271C186.263 170.974 45.2563 189.818 18.9409 135.058C-7.37402 80.2991 47.6636 27.4462 75.2241 12.8828C102.784 -1.68073 155.457 -5.13342 180.899 8.96692C206.341 23.0672 211.175 35.1155 211.175 35.1155C211.175 35.1155 218.921 49.6728 215.048 66.2062C211.175 82.7396 235.458 82.7396 235.458 82.7396Z" fill-rule="evenodd" fill="#74A9DC"/>
+	<rect id="矩形" y="40.000000" rx="5.990023" width="51.824326" height="11.980045" fill="#4475A4"/>
+	<rect id="矩形备份 19" x="245.000000" y="133.000000" rx="5.990023" width="51.824326" height="11.980045" fill="#4475A4"/>
+	<ellipse id="椭圆形" rx="5.979730" ry="5.990023" transform="matrix(1 0 0 1 69.7632 45.9901)" fill="#4475A4"/>
+	<g opacity="0.772391" filter="url(#filter_413_69712_dd)">
+		<ellipse id="椭圆形" rx="123.581078" ry="15.973393" transform="matrix(1 0 0 1 143.514 176.974)" fill="#3A6996"/>
+	</g>
+	<g opacity="0.454474" filter="url(#filter_413_69713_dd)">
+		<ellipse id="椭圆形" rx="91.689186" ry="10.648929" transform="matrix(1 0 0 1 143.513 176.974)" fill="#263F65"/>
+	</g>
+	<path id="路径 5" d="M101.568 86.5457L101.568 185.997L213.891 177.864L213.891 78.8722L101.568 86.5457Z" fill-rule="evenodd" fill="#6291BD"/>
+	<path id="路径 6" d="M63.3496 78.1681L174.031 69.7905L213.891 78.8722L101.568 86.5457L63.3496 78.1681Z" fill-rule="evenodd" fill="#4475A4"/>
+	<path id="路径 7" d="M63.3496 78.1681L63.3496 177.277L101.568 185.997L101.568 86.5457L63.3496 78.1681Z" fill-rule="evenodd" fill="#4475A4"/>
+	<path id="路径 8" d="M101.568 86.5457L76.4551 126.918L37.415 117.996L63.3262 78.2213L101.568 86.5457Z" fill-rule="evenodd" fill="#34628E"/>
+	<path id="路径 9" d="M213.891 78.8722L225.558 109.922L213.891 107.384L213.891 78.8722Z" fill-rule="evenodd" fill="#34628E"/>
+</svg>

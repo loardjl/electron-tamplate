@@ -1,0 +1,13 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip270_45481">
+			<rect id="编辑" width="24.000000" height="24.000000" fill="white"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip270_45481)">
+		<path id="vector (Stroke)" d="M19.5278 7.21729C19.8208 7.51025 19.8208 7.98486 19.5278 8.27783L11.6089 16.1968C10.5347 17.271 8.79346 17.271 7.71973 16.1968L4.46729 12.9443C4.17432 12.6519 4.17432 12.1768 4.46729 11.8838C4.76025 11.5908 5.23486 11.5908 5.52783 11.8838L8.78027 15.1362C9.26855 15.6245 10.0601 15.6245 10.5483 15.1362L18.4673 7.21729C18.7603 6.92432 19.2349 6.92432 19.5278 7.21729Z" fill-rule="evenodd" fill="#FFFFFF"/>
+	</g>
+</svg>

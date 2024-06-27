@@ -1,0 +1,58 @@
+dc:
+    http:
+        host: 192.168.1.3
+        port: 10010
+        port_decision: 10010
+        url: /datacenter
+        pre_url: /datacenter
+        decision_url: /decision
+    tcp:
+        host: 192.168.1.3
+        port: 9135
+m:
+    tcp:
+        host: 192.168.1.3
+        port: 9237
+vcs:
+    tcp:
+        host: 192.168.1.3
+        port: 8090
+local-node:
+    http:
+        port: 25565
+    websocket:
+        port: 25570
+rules: '0'
+auth:
+    -
+        business: 6
+        operator: 15
+    -
+        business: 1
+        operator: 15
+    -
+        business: 2
+        operator: 15
+    -
+        business: 7
+        operator: 15
+password: '123'
+showLogo: true
+eoms:
+    http:
+        host: 192.168.0.242
+        port: 10010
+cloud_url: '192.168.0.61:8089'
+monitor:
+    enable: false
+    mqtt:
+        host: '192.168.0.18:1883'
+    dir:
+        win_error: 'C:\\Windows\\Minidump'
+    interval:
+        win_orrer: 300000
+        services: 300000
+        all_lathe: 300000
+        device: 300000
+        alarm: 300000
+    env: prod
