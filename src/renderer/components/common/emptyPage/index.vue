@@ -1,7 +1,7 @@
 <template>
   <baseContaner v-if="showContaner">
     <div class="empty-content">
-      <img src="@renderer/assets/images/svg/table/noData.svg" class="empty-img" />
+      <img src="@renderer/assets/images/svg/table/nodata.svg" class="empty-img" />
       <div class="empty-text">
         <span>{{ text }}</span>
         <slot></slot>
