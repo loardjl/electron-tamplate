@@ -53,7 +53,7 @@ const getLogo = async () => {
 }
 const getImageUrl = () => {
   const cnHref = new URL('../assets/images/png/logo/logo.png', import.meta.url).href
-  const enHref = new URL('../assets/images//png/logologo_en.png', import.meta.url).href
+  const enHref = new URL('../assets/images/png/logo/logo_en.png', import.meta.url).href
   return languag.value === 'zh-cn' ? cnHref : enHref
 }
 const getRealLogo = async change => {
