@@ -24,8 +24,7 @@ jobs:
       shell: bash
       run: |
         yarn --frozen-lockfile
-        yarn add xvfb-maybe -D
-        ./node_modules/.bin/xvfb-maybe yarn build
+        yarn build
 
 
 
