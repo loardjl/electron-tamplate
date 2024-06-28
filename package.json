@@ -24,7 +24,6 @@
     "dep:upgrade": "yarn upgrade-interactive --latest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "preinstall": "node preinstall.js",
     "postinstall": "electron-builder install-app-deps",
     "prepare": "husky install"
   },
