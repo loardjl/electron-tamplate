@@ -19,8 +19,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Test build
-      # env:
-      #   ELECTRON_RUN_AS_NODE: “1”
+      env:
+        CI: true
       shell: bash
       run: |
         yarn --frozen-lockfile
